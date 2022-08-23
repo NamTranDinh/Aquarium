@@ -1,0 +1,61 @@
+.form_validate-error{
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(218, 32, 32, 0.7);
+
+}
+.form_validate-susses{
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(121, 231, 88, 0.705);
+
+}
+.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.7;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    user-select: none;
+}
+ 
+.changeFlex-none{
+    display: flex !important;
+}
+.changeBlock-none{
+    display: block !important;
+}
+.changeNone-block{
+    display: none !important;
+}
+.changeMargin{
+    margin-left: 3%;
+    width: 94%;
+}
+ 
+.overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #0f0f0f23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.susses{
+    padding: 8vh 8vw;
+    background: rgb(255, 255, 255);
+    font-size: 3vh;
+    border-radius: 0.3vh;
+}
+.error{
+    padding: 4vh 4vw;
+    background: #FFC0CB;
+    font-size: 2vh;
+    border-radius: 0.3vh;
+    width: 40vw;
+}

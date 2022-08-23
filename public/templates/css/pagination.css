@@ -1,0 +1,84 @@
+.page{
+    font-size: 1.6rem;
+    text-align: center;
+    /* width: 100%; */
+    user-select: none;
+}
+.page a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    height: 42px;
+    width: 42px;
+    margin: 0 1px;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+a.a_asc, a.a_desc{
+    width: 64px !important;
+    padding: 0 4px;
+}
+.page a:hover{
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.page button{
+    font-size: 1.4rem;
+    height: 40px;
+    width: 40px;
+    margin: 0 1px;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: unset;
+    vertical-align: middle;
+}
+button.btn_asc, button.btn_desc{
+    width: 54px !important;
+    padding: 0 4px;
+}
+.page button:hover{
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.page button:focus{
+    outline: none;
+}
+.page .dotdot{
+    background: none;
+    cursor: default;
+    pointer-events: none;
+}
+
+a.hightlight, button.btn_hightlight{
+    color: white;
+    background: #337AB7;
+    cursor: default;
+    pointer-events: none;
+    border-radius: 4px;
+}
+
+@media (min-width: 740px) and (max-width: 1113px) {
+    .page a{
+        font-size: 1.4rem;
+        padding: 4px 0;
+    }
+    .page button{
+        font-size: 1.4rem;        
+    }
+}
+@media (max-width: 739px) {
+    .page a{
+        font-size: 1.2rem;
+        padding: 4px 0;
+    }
+    .page button{
+        font-size: 1.2rem;
+    }
+}
